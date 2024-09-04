@@ -79,7 +79,7 @@ The primary goal of this project is to deploy a scalable and automated CI/CD pip
 
 1. Clone the Repository
    ```bash
-   git clone https://github.com/your-username/repo-name.git
+   git clone https://github.com/chetanchandane/node-todo/tree/main
    ```
 2. Launch the EC2 Instance  
    Provision an EC2 instance on AWS with the necessary security groups to allow access to Jenkins (port 8080) and the application (port 8000).
