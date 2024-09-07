@@ -79,7 +79,7 @@ The primary goal of this project is to deploy a scalable and automated CI/CD pip
 
 1. Clone the Repository
    ```bash
-   git clone https://github.com/chetanchandane/node-todo/tree/main
+   git clone https://github.com/chetanchandane/node-todo.git
    ```
 2. Launch the EC2 Instance  
    Provision an EC2 instance on AWS with the necessary security groups to allow access to Jenkins (port 8080) and the application (port 8000).
@@ -93,10 +93,6 @@ The primary goal of this project is to deploy a scalable and automated CI/CD pip
 5. Run Docker Container  
    Build and deploy the application using Docker. Jenkins will handle the creation of the Docker image and run it as a container.
 
-### Future Enhancements
 
-- Implement SSL for secure communication between Jenkins and the application.
-- Scale the infrastructure using AWS Elastic Load Balancing and Auto Scaling.
-- Add automated testing steps in the Jenkins pipeline.
 
 
